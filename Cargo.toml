@@ -1,0 +1,20 @@
+[package]
+name = "zero2prod"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.90.0"  # Minimum Rust version
+authors = ["Almir D. V. Santiago <david.valente.santiago@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "Um simples servidor web"
+documentation = "N/A"
+homepage = "N/A"
+repository = "N/A"
+readme = "N/A"
+keywords = ["web server"]
+categories = ["web"]
+
+[dependencies]
+unilib = { path = "../unilib" }
+
+[dev-dependencies]
+# For testing and development
